@@ -7,7 +7,7 @@ from itertools import count
 from selenium.webdriver.common.action_chains import ActionChains
 import time
 
-chromedriver_path = 'C:/Users/Joe Kahora/Downloads/chromedriver.exe'
+chromedriver_path = ''
 browser = webdriver.Chrome(executable_path = chromedriver_path)
 browser.get('https://www.instagram.com/accounts/login')
 time.sleep(5)
